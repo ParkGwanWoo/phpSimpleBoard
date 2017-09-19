@@ -1,0 +1,11 @@
+.btn-style {
+	float: right; 
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.search-style {
+	float: left;
+	padding-left: 0px;
+	display: inline;
+}

@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdminBoard	common/classes/AdminBoard.php	/^	class AdminBoard {$/;"	c	line:2
+BASE	common/classes/Base.php	/^	class BASE {$/;"	c	line:2
+DB	common/classes/DB.php	/^	class DB {$/;"	c	line:2
+arr	action_front.php	/^	$arr = explode(".", $cmd);$/;"	v	line:5
+charset	common/classes/DB.php	/^		$charset = "UTF8";$/;"	v	line:5
+clsNm	action_front.php	/^		$clsNm = $arr[0];$/;"	v	line:12
+connect_db	common/classes/DB.php	/^		function connect_db($db_host, $db_user, $db_pass, $db_name, $db_connection_set) {$/;"	f	line:7
+db	common/classes/AdminBoard.php	/^			$db = '';$/;"	v	line:4
+db	common/classes/DB.php	/^			$this->db = $/;"	v	line:8
+db	common/classes/DB.php	/^		$db = '';$/;"	v	line:3
+dbHost	common/classes/Base.php	/^		$dbHost = ""$/;"	v	line:3
+error	admin/board/boardView.php	/^					  }, error: function(err, req, res) {$/;"	j	line:18
+method	action_front.php	/^		$method = new ReflectionMethod($clsNm, $mtdNm);$/;"	v	line:20
+mtdNm	action_front.php	/^		$mtdNm = $arr[1];$/;"	v	line:13
+obj	action_front.php	/^		$obj = $obj->newInstance();$/;"	v	line:17
+obj	action_front.php	/^		$obj = new ReflectionClass($clsNm);$/;"	v	line:16
+result	admin/board/test.php	/^	$result = array('inputTitle'=>$inputTitle, 'inputContents'=>$inputContents);$/;"	v	line:3
+result	common/classes/DB.php	/^		$result = '';$/;"	v	line:4
+success	admin/board/boardView.php	/^					  success: function(data) {$/;"	j	line:14
+writePost	common/classes/AdminBoard.php	/^		function writePost() {$/;"	f	line:3
