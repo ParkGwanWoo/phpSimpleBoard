@@ -13,7 +13,7 @@
 
 <div class="container">
 	<div class="row" style="display:block; padding-top:20px;">
-		<input type="hidden" name="check" value="1">
+		<input type="hidden" name="check" value="<?=$no?>">
 		<?php for($i=0; $i<sizeof($commentList); $i++) {  $row = $commentList[$i]; $comment = str_replace("\r\n", "<br>", $row->comment); ?>
 		 <div class="media comment-box" style="width: 100%;">
             <div class="media-left">

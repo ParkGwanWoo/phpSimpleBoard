@@ -11,7 +11,7 @@
 		<script src="/phpBoard/web/inc/js/jquery-3.2.1.min.js"></script>
 		<script src="http://malsup.github.com/jquery.form.js"></script>
 		<script src="/phpBoard/web/inc/js/bootstrap.js"></script>
-		<script src="/phpBoard/inc/js/main.js?version=7"></script>
+		<script src="/phpBoard/inc/js/main.js?version=8"></script>
 		<title>AnonymityBoard</title>
 	</head>
 	<body>

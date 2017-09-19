@@ -35,6 +35,7 @@ $(document).ready(function(){
 		
 		if(confirm("Save Comment?")) {
 			var params = $("#comment_fm").serialize();
+			var check = $("[name=check]").val();
 			$.ajax({
 				url: "/phpBoard/action_front.php",
 				type: "POST",
@@ -43,7 +44,7 @@ $(document).ready(function(){
 				success: function(data) {
 					alert('Save Complete');
 					var rep_comment = data.comment;
-					location.href =location.href + "&ref=1";
+					location.href ="/phpBoard/admin/board/boardView.php?" + "no="+check+"&ref=1";
 				}
 			});
 		}
