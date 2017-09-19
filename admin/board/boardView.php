@@ -9,7 +9,7 @@
 
 	$ref = $obj->req['ref']; // 댓글작성시 ref 체크해서 조회수버그 방지
 	// 조회수 올리는 쿼리
-	if(isset($ref)) {
+	if(!isset($ref)) {
 		if(isset($no)) {
 			$sql = "UPDATE BOARD SET HIT = HIT+1 WHERE NO = $no";
 			mysqli_query($obj->db, "$sql");
